@@ -5,6 +5,16 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>Herdr Notch 1.4.1</title>
+      <sparkle:version>1.4.1</sparkle:version>
+      <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;v1.4.0 could not launch.&lt;/strong&gt; Embedding Sparkle made the binary link &lt;code&gt;@rpath/Sparkle.framework/…&lt;/code&gt;, but the project set no &lt;code&gt;LD_RUNPATH_SEARCH_PATHS&lt;/code&gt;, so the app shipped with no &lt;code&gt;LC_RPATH&lt;/code&gt; at all and dyld aborted at startup ("Library not loaded … no LC_RPATH's found"). Signing, notarization and stapling all pass on such a binary, so the break was invisible until launch. The runpath is now pinned to &lt;code&gt;@executable_path/../Frameworks&lt;/code&gt;.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 01 Sep 2026 13:13:47 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.4.1/HerdrNotch-1.4.1.dmg" sparkle:edSignature="l7Niz7Iqwc/2X+tw0BC3pJJq1IamPH5aygFHfirn1YYz42jUER7iJd4tBEHznui7a3tsUWWAc0TnUO7qv3UACQ==" length="4109138" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 1.4.0</title>
       <sparkle:version>1.4.0</sparkle:version>
       <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
