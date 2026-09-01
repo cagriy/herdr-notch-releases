@@ -14,15 +14,5 @@
       <pubDate>Tue, 01 Sep 2026 13:13:47 +0000</pubDate>
       <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.4.1/HerdrNotch-1.4.1.dmg" sparkle:edSignature="l7Niz7Iqwc/2X+tw0BC3pJJq1IamPH5aygFHfirn1YYz42jUER7iJd4tBEHznui7a3tsUWWAc0TnUO7qv3UACQ==" length="4109138" type="application/octet-stream" />
     </item>
-    <item>
-      <title>Herdr Notch 1.4.0</title>
-      <sparkle:version>1.4.0</sparkle:version>
-      <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description>&lt;h3&gt;Added&lt;/h3&gt;
-&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Sparkle auto-updates.&lt;/strong&gt; The app checks &lt;code&gt;cagriy/herdr-notch-releases&lt;/code&gt; (public appcast + DMGs) daily and offers found updates; a manual *Check for Updates…* item joins the right-click menu. Releases gain an EdDSA-signing step (&lt;code&gt;scripts/package-dmg.sh&lt;/code&gt;) and an appcast update (&lt;code&gt;scripts/appcast.py&lt;/code&gt;); &lt;code&gt;CFBundleVersion&lt;/code&gt; now tracks &lt;code&gt;MARKETING_VERSION&lt;/code&gt; so Sparkle can compare builds.&lt;/li&gt;&lt;/ul&gt;</description>
-      <pubDate>Mon, 31 Aug 2026 18:37:40 +0000</pubDate>
-      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.4.0/HerdrNotch-1.4.0.dmg" sparkle:edSignature="2lb0axuoQ+fLAtz5X0KadOvi0PpNfBgToJS4j3iYsZZ3Rj5tAUXGD9AlnbRl4jN3qnOY4ZE2Vj1v6PWHnhbgCA==" length="4109053" type="application/octet-stream" />
-    </item>
   </channel>
 </rss>
