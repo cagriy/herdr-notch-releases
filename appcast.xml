@@ -5,6 +5,18 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>Herdr Notch 1.4.2</title>
+      <sparkle:version>1.4.2</sparkle:version>
+      <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;&lt;code&gt;hdr&lt;/code&gt; runs its socket forwards under autossh.&lt;/strong&gt; A dropped link — sleep, a change of network, a VPN flap — used to leave the notch pointed at a dead socket for the rest of the session with nothing to rebuild it. The forwards now reconnect on their own, as &lt;code&gt;hdrm&lt;/code&gt;'s already did, with reconnect noise redirected to &lt;code&gt;~/.config/herdr/hdr-forward.log&lt;/code&gt; so it stays off the herdr TUI. &lt;code&gt;autossh&lt;/code&gt; is now required on the client.&lt;/li&gt;&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;**The release build rejects an app whose &lt;code&gt;@rpath&lt;/code&gt; dependencies do not resolve.** codesign, notarytool and stapler all succeed on a binary that dyld refuses to start, which is how v1.4.0 shipped unlaunchable; &lt;code&gt;package-dmg.sh&lt;/code&gt; now checks before notarizing.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Fri, 04 Sep 2026 15:35:25 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.4.2/HerdrNotch-1.4.2.dmg" sparkle:edSignature="ASAt3KT6TFnm/ONph6FbOlpowqk4ARbMIZesK+A/JH2fPOAhxaDWxiPouA6XKN4c/r0XQ336LdqSm0KXn1usCw==" length="4109139" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 1.4.1</title>
       <sparkle:version>1.4.1</sparkle:version>
       <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
