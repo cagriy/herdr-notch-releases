@@ -5,6 +5,16 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>Herdr Notch 1.5.2</title>
+      <sparkle:version>1.5.2</sparkle:version>
+      <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Footer profile names no longer truncate.&lt;/strong&gt; The footer is pinned to the rows' width and SwiftUI's Grid shared it equally across the six columns, squeezing &lt;code&gt;claude&lt;/code&gt; to &lt;code&gt;cla…&lt;/code&gt; while padding the number columns. The label column now keeps its natural width; only the value columns absorb the surplus.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Mon, 07 Sep 2026 20:02:37 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.5.2/HerdrNotch-1.5.2.dmg" sparkle:edSignature="HuiHgS6CyyuWeFYn7//1i+zo85IbGG2K00mZuhm638mJeky9rJKjyIK9By9Xxs1JNcuf6cGCbYRciDpe6TynDA==" length="4552348" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 1.5.1</title>
       <sparkle:version>1.5.1</sparkle:version>
       <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
