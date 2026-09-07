@@ -5,6 +5,19 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>Herdr Notch 1.5.1</title>
+      <sparkle:version>1.5.1</sparkle:version>
+      <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;p&gt;The first version published by the new workflow. It carries everything listed under 1.5.0, which was tagged but never published.&lt;/p&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Releases are built and published by GitHub Actions.&lt;/strong&gt; Pushing the &lt;code&gt;vX.Y.Z&lt;/code&gt; tag (what &lt;code&gt;/release&lt;/code&gt; does) tests, builds, notarizes, Sparkle-signs, publishes both GitHub releases and updates the appcast on a hosted macOS runner; a manual dispatch with &lt;code&gt;dry_run&lt;/code&gt; proves the pipeline without publishing. &lt;code&gt;package-dmg.sh&lt;/code&gt; still runs locally as a fallback.&lt;/li&gt;&lt;/ul&gt;
+&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;The usage socket's accept loop owns its descriptor.&lt;/strong&gt; &lt;code&gt;stop()&lt;/code&gt; closed the listener from another thread, so its number could be recycled by a new socket before the loop's next &lt;code&gt;accept&lt;/code&gt;, and a stale loop then answered the new socket's connections. Harmless for the app's single server, but it made the core tests fail on the CI runner. The loop now polls a stop flag and closes the descriptor itself; the test fake does the same.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Mon, 07 Sep 2026 16:37:28 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.5.1/HerdrNotch-1.5.1.dmg" sparkle:edSignature="GjDWGXtNutJxYJjfv9tLwHGOZkJB+w8k2Ok3+BY2Mf1y7Hz7Ryko7xkBk7a2vieqRuggybNB7qHb+NCTY1mNCw==" length="4550997" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 1.4.2</title>
       <sparkle:version>1.4.2</sparkle:version>
       <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
