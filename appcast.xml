@@ -5,6 +5,16 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>Herdr Notch 1.5.4</title>
+      <sparkle:version>1.5.4</sparkle:version>
+      <sparkle:shortVersionString>1.5.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Unknown-status workspaces wait for the 2 s hover too.&lt;/strong&gt; They join the idle rows behind the &lt;code&gt;N idle&lt;/code&gt; line rather than listing at once.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Wed, 09 Sep 2026 12:32:04 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.5.4/HerdrNotch-1.5.4.dmg" sparkle:edSignature="akk3ub0t3XdpZrYB6F82nV1oS75ACku8hZEJoLEM41IeEpVXUbv8Ihy4yfbEvki2qtnPD/2a2QDEQGzi2RY3DQ==" length="4561642" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 1.5.3</title>
       <sparkle:version>1.5.3</sparkle:version>
       <sparkle:shortVersionString>1.5.3</sparkle:shortVersionString>
