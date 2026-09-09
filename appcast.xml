@@ -5,6 +5,16 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>Herdr Notch 1.5.3</title>
+      <sparkle:version>1.5.3</sparkle:version>
+      <sparkle:shortVersionString>1.5.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Idle workspaces wait for a 2 s hover.&lt;/strong&gt; The hover panel first lists only the workspaces asking for attention — blocked, done, working, unknown — with an &lt;code&gt;N idle&lt;/code&gt; line beneath; resting on the panel for 2 s brings the idle rows in. Leaving, or clicking a row, starts the next hover from the short list again. The alert panel is unchanged.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Accept herdr protocol 22.&lt;/strong&gt; herdr 0.9.0 answers with protocol 22 (the client-rendered shell and stable endpoint changes, none of which touch the fields the notch reads), and the 20–21 pin left the notch disconnected. The pin is now the range 20–22; the mismatch notice reports 22 as the version this build reads.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Wed, 09 Sep 2026 12:24:27 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.5.3/HerdrNotch-1.5.3.dmg" sparkle:edSignature="W4BeSqFz9PNMaOn/CZms13+2MSZFL6PQ2QJyCmUFiYKC9Is8RqXIb13qcmnuCfywID/G2cCJRCZt8WJWkBmxCA==" length="4561677" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 1.5.2</title>
       <sparkle:version>1.5.2</sparkle:version>
       <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
