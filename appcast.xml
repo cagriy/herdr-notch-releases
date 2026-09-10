@@ -5,6 +5,16 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>Herdr Notch 1.5.6</title>
+      <sparkle:version>1.5.6</sparkle:version>
+      <sparkle:shortVersionString>1.5.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;The popup's &lt;code&gt;7 d&lt;/code&gt; switch responds to clicks.&lt;/strong&gt; The popup body's anchor replaced the two range segments' anchors, so neither segment was ever a hit target and the range could not be changed.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 10 Sep 2026 18:06:59 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.5.6/HerdrNotch-1.5.6.dmg" sparkle:edSignature="qLUtyjWDubh9YFfx89/IAkyOLrizI/B349OynP16k0NC25hjEo8I3I8USWAZtnLKfz5qOQvM2Nn0+54RISARCg==" length="4571566" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 1.5.5</title>
       <sparkle:version>1.5.5</sparkle:version>
       <sparkle:shortVersionString>1.5.5</sparkle:shortVersionString>
