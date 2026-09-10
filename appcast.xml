@@ -5,6 +5,16 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>Herdr Notch 1.5.5</title>
+      <sparkle:version>1.5.5</sparkle:version>
+      <sparkle:shortVersionString>1.5.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;The idle reveal counts time on the notch, not on the panel.&lt;/strong&gt; The 2 s that brings the idle and unknown rows in is measured while the pointer rests on the notch strip itself; moving down over the rows or footer cancels a pending reveal, and coming back to the notch starts a fresh 2 s. Rows already revealed stay until the panel closes.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 10 Sep 2026 10:19:44 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.5.5/HerdrNotch-1.5.5.dmg" sparkle:edSignature="sez6NGaLyu9Locx/LRA0cHCOQzqVtFKo2CDK5sSAQt1VWZBtgZg81PKA8REsTRISs+TKLEvvOSQ60Alwm5RHBA==" length="4567822" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 1.5.4</title>
       <sparkle:version>1.5.4</sparkle:version>
       <sparkle:shortVersionString>1.5.4</sparkle:shortVersionString>
