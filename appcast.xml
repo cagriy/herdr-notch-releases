@@ -5,6 +5,16 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>Herdr Notch 1.5.7</title>
+      <sparkle:version>1.5.7</sparkle:version>
+      <sparkle:shortVersionString>1.5.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Finer bins on the tokens graph.&lt;/strong&gt; 15-minute bins over 24 h (was 1 h) and two-hour bins over 7 d (was 6 h). Session rows land at most once per five-minute tick, so with sparse sessions the graph shows spikes rather than a profile.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 10 Sep 2026 18:25:38 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.5.7/HerdrNotch-1.5.7.dmg" sparkle:edSignature="xd2GGsmbWZ2wpViCLUCbrDdzGV0U5Cwgp7fbt4fqfCbNKL7o0C/M4H9JonbCcDjYrlTX+gX97xNfw/Z2jY/DDg==" length="4571757" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 1.5.6</title>
       <sparkle:version>1.5.6</sparkle:version>
       <sparkle:shortVersionString>1.5.6</sparkle:shortVersionString>
