@@ -5,6 +5,16 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>Herdr Notch 1.5.8</title>
+      <sparkle:version>1.5.8</sparkle:version>
+      <sparkle:shortVersionString>1.5.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Remote usage and context reach the notch again.&lt;/strong&gt; &lt;code&gt;usage.sock&lt;/code&gt;, &lt;code&gt;usage-remote.sock&lt;/code&gt; and &lt;code&gt;usage-remote.host&lt;/code&gt; move from &lt;code&gt;~/Library/Containers/dev.cagri.HerdrNotch/Data&lt;/code&gt; to &lt;code&gt;~/.local/state/herdr-notch&lt;/code&gt;. macOS guards a container as another app's data, so &lt;code&gt;hdr&lt;/code&gt; could not bind the forward's local end there: it skipped the usage forward and the notch kept showing this Mac's own numbers. Granting the terminal Full Disk Access was the only way round it. **Both Macs need this version** — the paths changed on both ends of the forward.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;&lt;code&gt;hdr&lt;/code&gt; and &lt;code&gt;hdrm&lt;/code&gt; say why usage stayed local.&lt;/strong&gt; The reason also goes to &lt;code&gt;hdr-forward.log&lt;/code&gt; / &lt;code&gt;hdrm-forward.log&lt;/code&gt;, which the herdr TUI cannot paint over the moment it takes the screen.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Thu, 17 Sep 2026 20:58:40 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.5.8/HerdrNotch-1.5.8.dmg" sparkle:edSignature="p3+iF/9FzSgBMSk/H5AvZbsi+VNwH4PMgSh6n6XYCu9qX2A84DZsaFu/TrtQzjESdlTq6kR19AAC3iWRlFGnCQ==" length="4570890" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 1.5.7</title>
       <sparkle:version>1.5.7</sparkle:version>
       <sparkle:shortVersionString>1.5.7</sparkle:shortVersionString>
