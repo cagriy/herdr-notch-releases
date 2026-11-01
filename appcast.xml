@@ -5,6 +5,20 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>Herdr Notch 1.5.9</title>
+      <sparkle:version>1.5.9</sparkle:version>
+      <sparkle:shortVersionString>1.5.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Herdr app spaces and &lt;code&gt;hc&lt;/code&gt; agents in the notch.&lt;/strong&gt; Agents in the native Herdr app (local and remote spaces) and loose &lt;code&gt;hc run&lt;/code&gt; terminals now get rows, alerts and click-to-focus alongside herdr TUI workspaces, in one attention-sorted list. The notch follows herdr-core's event stream and reads the Herdr app's socket for space names and its seen state; neither needs configuring.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Source marks.&lt;/strong&gt; Each row leads with a mark: a dashed square for TUI workspaces, a four-square for Herdr app spaces (hollow while Herdr is closed), none for loose &lt;code&gt;hc&lt;/code&gt; agents. A row on another machine carries that machine's name; a disconnected machine's rows read &lt;code&gt;offline&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Clicks land in Herdr.&lt;/strong&gt; An app row focuses the agent's pane, launching Herdr if it is closed; a loose agent opens a peek. A TUI running inside a Herdr pane is focused there before iTerm2 is tried.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Source hints.&lt;/strong&gt; With rows on screen, a source that needs action (socket refused, too old, unreadable) adds one line under the rows.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Waiting graph.&lt;/strong&gt; Every history popup gains &lt;code&gt;WAITING&lt;/code&gt;: blocked and done time per bin, across all sources, from a 365-day ledger in &lt;code&gt;~/.local/state/herdr-notch/waiting.sqlite&lt;/code&gt;. It starts empty.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Context bars for app spaces and &lt;code&gt;hc&lt;/code&gt; agents&lt;/strong&gt;, once meterstick and meterstick-cx write &lt;code&gt;hc_terminal_id&lt;/code&gt;.&lt;/li&gt;&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;The herdr TUI is read at protocol 20 or newer&lt;/strong&gt;, so a TUI update no longer darkens the notch. A snapshot this build cannot decode says &lt;code&gt;can't read herdr&lt;/code&gt; rather than &lt;code&gt;lost herdr&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;&lt;code&gt;nothing running&lt;/code&gt;&lt;/strong&gt; replaces the &lt;code&gt;herdr not running&lt;/code&gt; notice; it covers the TUI, the Herdr app and &lt;code&gt;hc&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Canvas 640 × 900&lt;/strong&gt;, for the hint lines and the waiting graph.&lt;/li&gt;&lt;/ul&gt;
+&lt;h3&gt;Note&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Agent status comes from the agent's OSC 7501 reports, which Claude Code and Codex send. &lt;code&gt;CLAUDE_CODE_DISABLE_TERMINAL_TITLE&lt;/code&gt; turns them off, and such an agent reads idle.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Sun, 01 Nov 2026 09:41:57 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v1.5.9/HerdrNotch-1.5.9.dmg" sparkle:edSignature="E5tPWADyjvMmhr7XhXyJDdrUBq4NIFhy8Qd5XAXFBL2+ATHWwgWf/KUe117EzfNNyx9BjbpNbR+zmSamZ5DYCg==" length="5300209" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 1.5.8</title>
       <sparkle:version>1.5.8</sparkle:version>
       <sparkle:shortVersionString>1.5.8</sparkle:shortVersionString>
