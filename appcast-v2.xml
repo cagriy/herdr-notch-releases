@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.sparkle-project.org/xml/rss" version="2.0">
+  <channel>
+    <title>Herdr Notch 2</title>
+    <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast-v2.xml</link>
+    <description>Herdr Notch 2.x updates</description>
+    <item>
+      <title>Herdr Notch 2.0.0</title>
+      <sparkle:version>2.0.0</sparkle:version>
+      <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Macs share through herdr-core.&lt;/strong&gt; Each notch keeps a &lt;code&gt;herdr-notch&lt;/code&gt; document on its own herdr-core — this Mac's usage readings, its rows' context percentages and its sessions — and reads the same document from every connected machine in the core's &lt;code&gt;machine.list&lt;/code&gt;. Nothing to configure in the notch; a machine removed there leaves the notch.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Context bars on remote rows.&lt;/strong&gt; Remote Herdr app spaces and loose &lt;code&gt;hc&lt;/code&gt; agents get bars when that machine runs Notch 2.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Usage lines follow the account.&lt;/strong&gt; Each footer line shows the freshest reading of its account from any connected machine, tagged with that machine. An account only another machine has gets its own tagged line: &lt;code&gt;offline&lt;/code&gt; without a reading, gone once no machine that had it is listed. Accounts cross machines only as hashes; no token leaves its Mac.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;History covers every machine.&lt;/strong&gt; A line's popup sums the sessions on its account from every connected machine, and each session records the row it ran in.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Machine hint.&lt;/strong&gt; A connected machine with rows but no live Notch 2 document adds the grey line &lt;code&gt;&amp;lt;machine&amp;gt; · no Notch 2 running&lt;/code&gt;.&lt;/li&gt;&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Update feed &lt;code&gt;appcast-v2.xml&lt;/code&gt;.&lt;/strong&gt; 2.x checks its own feed; 1.x stays on &lt;code&gt;appcast.xml&lt;/code&gt; and is never offered 2.x.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Row marks.&lt;/strong&gt; Loose &lt;code&gt;hc&lt;/code&gt; agents, local or remote, get a filled pane square, so every row has a mark. App spaces keep the four-square.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Notices.&lt;/strong&gt; &lt;code&gt;looking for Herdr&lt;/code&gt;, &lt;code&gt;no agents&lt;/code&gt; and &lt;code&gt;start Herdr&lt;/code&gt; replace &lt;code&gt;looking for herdr&lt;/code&gt;, &lt;code&gt;no workspaces&lt;/code&gt; and &lt;code&gt;start herdr&lt;/code&gt;.&lt;/li&gt;&lt;/ul&gt;
+&lt;h3&gt;Removed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;herdr TUI support.&lt;/strong&gt; The notch no longer reads the TUI's socket: no TUI rows, dashed-square mark or TUI notices (&lt;code&gt;lost herdr&lt;/code&gt;, &lt;code&gt;herdr protocol N&lt;/code&gt;). The TUI stays on 1.x.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;&lt;code&gt;hdr&lt;/code&gt; and &lt;code&gt;hdrm&lt;/code&gt;&lt;/strong&gt;, the ssh forwards they opened, the &lt;code&gt;usage.sock&lt;/code&gt; publisher and the footer's followed-host cell. The notch binds no socket and starts no &lt;code&gt;ssh&lt;/code&gt;.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;iTerm2 activation&lt;/strong&gt; and the Apple Events entitlement. Every row click goes to the Herdr app; no Automation prompt.&lt;/li&gt;&lt;/ul&gt;
+&lt;h3&gt;Upgrading&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Install 2.0.0 by hand once per Mac&lt;/strong&gt;, from its DMG: 1.x never offers it. Auto-update works from then on.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Each Mac's herdr-core must add the other&lt;/strong&gt; for two-way data: &lt;code&gt;hc machine add &amp;lt;ssh target&amp;gt; --name &amp;lt;name&amp;gt;&lt;/code&gt; on both. A core reads only machines it added itself.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Rollback:&lt;/strong&gt; install the 1.5.9 DMG; it follows &lt;code&gt;appcast.xml&lt;/code&gt;, settings and history intact.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 03 Nov 2026 06:12:21 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v2.0.0/HerdrNotch-2.0.0.dmg" sparkle:edSignature="+EjAeyA4rQup0aw29OYP1u87K9qKYmAzggrbRWzxR/Id97C93nbrSGeug2HVptiQcOFT99HXv0bKnC62z1XdAw==" length="5415180" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
