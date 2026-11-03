@@ -5,6 +5,16 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast-v2.xml</link>
     <description>Herdr Notch 2.x updates</description>
     <item>
+      <title>Herdr Notch 2.0.1</title>
+      <sparkle:version>2.0.1</sparkle:version>
+      <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Fixed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;A Done seen in the Herdr app keeps its full 4 s flash.&lt;/strong&gt; The app marks a finish seen as soon as its tab is on screen, which cut the flash to about half a second, or nothing.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 03 Nov 2026 17:25:52 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v2.0.1/HerdrNotch-2.0.1.dmg" sparkle:edSignature="4cOg4+9SEBXU46cG2nbXmNkMg2VlTnE1ZqUR6fdn5xJEcli0JgRyE2jWjnPnXqd7zj+axR4cVnliB2vbhePlCg==" length="5414501" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 2.0.0</title>
       <sparkle:version>2.0.0</sparkle:version>
       <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
