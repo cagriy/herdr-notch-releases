@@ -5,6 +5,16 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast-v2.xml</link>
     <description>Herdr Notch 2.x updates</description>
     <item>
+      <title>Herdr Notch 2.0.2</title>
+      <sparkle:version>2.0.2</sparkle:version>
+      <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Usage lines carry no machine tag.&lt;/strong&gt; Most lines are fed by a peer, so the tags crowded the footer. Rows keep theirs.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Wed, 04 Nov 2026 12:55:28 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v2.0.2/HerdrNotch-2.0.2.dmg" sparkle:edSignature="dNafGUdiS7vAWIUAGi4LvtA9XiryX0qJ1uipecdtWoHS6YkFMIGHq4dEVaDobRp0+K3xrCwDqI8+7L/an0MEDw==" length="5405778" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 2.0.1</title>
       <sparkle:version>2.0.1</sparkle:version>
       <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
