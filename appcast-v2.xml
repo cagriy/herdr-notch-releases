@@ -5,6 +5,16 @@
     <link>https://raw.githubusercontent.com/cagriy/herdr-notch-releases/main/appcast-v2.xml</link>
     <description>Herdr Notch 2.x updates</description>
     <item>
+      <title>Herdr Notch 2.0.3</title>
+      <sparkle:version>2.0.3</sparkle:version>
+      <sparkle:shortVersionString>2.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;A Codex home can opt out of the footer.&lt;/strong&gt; An empty &lt;code&gt;.herdr-notch-ignore&lt;/code&gt; file in a home drops its usage line. The ChatGPT app keeps &lt;code&gt;~/.codex&lt;/code&gt; signed in whether or not a launcher uses it.&lt;/li&gt;&lt;/ul&gt;</description>
+      <pubDate>Tue, 10 Nov 2026 15:13:53 +0000</pubDate>
+      <enclosure url="https://github.com/cagriy/herdr-notch-releases/releases/download/v2.0.3/HerdrNotch-2.0.3.dmg" sparkle:edSignature="VPVHuPbdFtrqH9MfZE8QGjf3a56lPpFKL3QQFGou+NoUUPItaVpA6b0QELacIQ7cPxLJ0466oByLOBpg2Z1zDA==" length="5408123" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Herdr Notch 2.0.2</title>
       <sparkle:version>2.0.2</sparkle:version>
       <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
